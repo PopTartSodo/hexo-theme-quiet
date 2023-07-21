@@ -6,9 +6,7 @@
         <div class="categories-content-data">
 				<div class="categories-class">
 					<% site.categories.map(function(category,index){  %>
-						<a class="categories-class-card" href="<%- url_for(category.path) %>"
-							style="background-image: url('<%- theme.default_cover %>');"
-						>
+						
 							<span class="categories-class-card-title"><%= category.name %></span>
 							<div class="categories-class-card-number">
 								<span>
